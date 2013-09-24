@@ -31,6 +31,9 @@ Once this is done, use "check-links.sh" to make sure everything is setup right.
 
 update symlinks portion of README.md as they are added to these scripts
 
+TODO Tasks
+----------
+
 * checking .vimrc
 * checkin "original" mac and linux bashrc
 * make .bashrc cross platform
