@@ -1,0 +1,10 @@
+# ~/.aliases is source from ~/.bashrc
+
+# simple ls alias
+alias l="ls"
+
+# makes text red and surrounds it with character returns
+echored()
+{
+    echo -e "\n\e[1;31m$1\e[0m\n"
+}
