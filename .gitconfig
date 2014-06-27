@@ -1,0 +1,19 @@
+# Yo dawg, I heard you like git, so we put your global git config in git </xzbit>
+
+[user]
+	email = indy@indythegeek.com
+	name = indythegeek
+
+[push]
+    default = matching
+
+[color]
+    status = auto
+
+[alias]
+    s = status -s
+    annotate = blame
+    praise = blame
+
+[diff]
+    tool = tkdiff
