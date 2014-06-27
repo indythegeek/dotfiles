@@ -7,11 +7,17 @@
 # .bashrc/.bash_profile seperation, but I've been using .bashrc for too many years to 
 # go back now.
 
-if [ "$SSH_TTY" ]; then
-  if [ -f /usr/bin/zsh ]; then
-    exec /usr/bin/zsh
-  fi
-fi
+##
+## Whoa. Not ready for zsh yet!
+## Also, this is the last remenant of "do something different when non-interactive 
+##  (eg, with rsync)"
+##
+#
+#if [ "$SSH_TTY" ]; then
+#  if [ -f /usr/bin/zsh ]; then
+#    exec /usr/bin/zsh
+#  fi
+#fi
 
 ## ALIASES
 # ~/.aliases, instead of adding them here directly.
@@ -75,19 +81,26 @@ esac
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
+##
+## This is used to make custom short user and hostnames, but if this .bashrc is reused elsewhere
+## then it falls back
 # Create a custom short hostname
 
-if [ "$(hostname -f)" = "infra-bastion01.compliant.disney.private" ]; then
-    SHORTHOST="bas01.compl"
-elif [ "$(hostname -f)" = "infra-bastion02.compliant.disney.private" ]; then
-    SHORTHOST="bas02.compl"
+if [ "$(hostname -f)" = "rigoletto.indythegeek.com" ]; then
+    SHORTHOST="rigo"
 else
     SHORTHOST="$(hostname)"
 fi    
 
+if [ "$(whoami)" = "msiverd" ]; then
+    SHORTUSER="me"
+else
+    SHORTUSER="$(whoami)"
+fi    
+
 # Username @ shortened hostname : bold cwd 
 
-PS1="\u@$SHORTHOST:\[\033[1m\]\w\[\033[0m\] $ "
+PS1="$SHORTUSER@$SHORTHOST:\[\033[1m\]\w\[\033[0m\] $ "
 
 ## COLOR
 
