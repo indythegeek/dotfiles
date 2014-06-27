@@ -95,6 +95,24 @@ else
   fi
 fi
 
+# .gitconfig
+echo "checking .gitconfig"
+if [ -L ~/.gitconfig ]; then
+  echo " ...good, ~/.gitconfig is a symlink..."
+  if [ $(readlink ~/.gitconfig) = ".dotfiles/.gitconfig" ]; then
+    echo "  ...and the value is correct: .dotfiles/.gitconfig"
+    echo "   ... Great!"
+  else
+    echo "  ...but the value is not correct, PLEASE FIX."
+  fi
+else
+  if [ -e ~/.gitconfig ]; then
+    echo "~/.gitconfig is not a symlink, PLEASE FIX."
+  else
+    echo "There is no ~/.gitconfig at all, PLEASE FIX."
+  fi
+fi
+
 
 ## Do this later
 #

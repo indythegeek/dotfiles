@@ -57,6 +57,16 @@ fi
 
 cd ~
 
+# .gitconfig
+if [ -e ~/.gitconfig ]; then
+  echo "whoops, there is something at ~/.gitconfig, PLEASE FIX."
+else
+  cd ~
+  ln -v -s .dotfiles/.gitconfig .gitconfig
+fi
+
+cd ~
+
 ## Do this later:
 #
 #cd ~
