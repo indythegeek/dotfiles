@@ -1,5 +1,8 @@
 # ~/.aliases is sourced from ~/.bashrc or ~/.zshrc
 
+# Colorized apache watching
+alias apachewatch='sudo grc tail -f /var/log/apache2/access.log'
+
 # makes text red and surrounds it with character returns
 echored()
 {
