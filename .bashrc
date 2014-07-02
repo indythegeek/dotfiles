@@ -129,6 +129,27 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Now for color support provided by grc, which is newer fangled that dircolors
+# I am selectivly turning on the aliases found in /usr/share/grc/conf.*
+if $(grc &>/dev/null) && [ "$TERM" != dumb ]
+then
+    # Generic tailing, grc rexexp will catch log type
+    alias tail='grc tail'
+    # Direct commants
+    alias netstat='grc netstat'
+    alias traceroute='grc traceroute'
+    alias ifconfig='grc ifconfig'
+    alias dig='grc dig'
+    alias mtr='grc mtr'
+    alias ping='grc ping'
+    alias diff='grc diff'
+    alias mount='grc mount'
+    alias ps='grc ps'
+    # Compiler commands
+    alias make='grc make'
+    alias gcc='grc gcc'
+    alias configure='grc configure'
+fi
 
 # For the root bashrc, I like to use this in either /root/.bashrc or /etc/bashrc
 # I paste it here for reference.  It even if I uncommented it, it won't actually 
