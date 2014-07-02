@@ -1,7 +1,4 @@
-# ~/.aliases is source from ~/.bashrc
-
-# simple ls alias
-alias l="ls"
+# ~/.aliases is sourced from ~/.bashrc or ~/.zshrc
 
 # makes text red and surrounds it with character returns
 echored()
