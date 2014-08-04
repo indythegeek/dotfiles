@@ -3,7 +3,6 @@ dotfiles
 
 Indy's dotfile configs, bash, zsh, vim, etc. Built up from over two decades with merges from different online sources. Each sub source retains it's own license.  My changes outside of those sources should be considered MIT License.
 
-
 Make scripts
 ------------
 
@@ -43,7 +42,6 @@ My Dotfiles                                       | Original Source             
 .oh-my-zsh/                                       | https://github.com/robbyrussell/oh-my-zsh.git            | MIT
 .oh-my-zsh/custom/plugins/zsh-syntax-highlighting | https://github.com/zsh-users/zsh-syntax-highlighting.git | BSD Custom
 
-
 TODO Tasks
 ----------
 
@@ -65,8 +63,6 @@ TODO Tasks
 * .vimrc/.vim/
   * wordwrap
   * spelling (in Linux?  MacVim?  Cream?)
-  * Figure out to apply vim status config in split windows
-
 
 Enhancements
 -------------
