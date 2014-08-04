@@ -7,11 +7,11 @@ Indy's dotfile configs, bash, zsh, vim. Largely a merge from different online so
 Make scripts
 ------------
 
-1 Checkout to ~/.dotfiles and run "make-links.sh". This makes symlinks to top level dotfiles and directories. This keeps there from being a ~/.git folder in the top level homedir, confusing any git tools.
+ 1. Checkout to ~/.dotfiles and run "make-links.sh". This makes symlinks to top level dotfiles and directories. This keeps there from being a ~/.git folder in the top level homedir, confusing any git tools.
 
-1 Once this is done, use "check-links.sh" to make sure everything is setup right.
+ 1. Once this is done, use "check-links.sh" to make sure everything is setup right.
 
-1 update symlinks portion of README.md as they are added to these scripts
+ 1. update symlinks portion of README.md as they are added to these scripts
 
 These scripts are a bit of a nightmare, but this: http://dotfiles.github.io/ contains some good candidates for replacing hacky linking scripts.
 
