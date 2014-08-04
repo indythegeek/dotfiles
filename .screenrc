@@ -16,7 +16,7 @@ bind ^a
 
 ################################################################################
 #
-# Captions and hardstatus. Makes it looks like you have a tabed terminal
+# Captions and hardstatus. Makes it looks like you have a tabbed terminal
 # and puts useful info into the title of your terminal
 
 # The main hack is dynamic terminal titles and psuedo tabs for now.
