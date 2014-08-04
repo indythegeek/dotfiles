@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-Indy's dotfile configs, bash, zsh, vim, etc. Built up from over two decades with merge from different online sources. Each sub source retains it's own license.  My changes outside of those sources should be considered MIT License.
+Indy's dotfile configs, bash, zsh, vim, etc. Built up from over two decades with merges from different online sources. Each sub source retains it's own license.  My changes outside of those sources should be considered MIT License.
 
 
 Make scripts
