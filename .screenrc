@@ -1,6 +1,5 @@
 ################################################################################
 #
-##
 # Indy's .screen file
 #
 
@@ -17,10 +16,10 @@ bind ^a
 
 ################################################################################
 #
-# Captions and hardstatus. Makes it looks like you have a tabed terminal 
+# Captions and hardstatus. Makes it looks like you have a tabed terminal
 # and puts useful info into the title of your terminal
 
-# The main hack is dynamic terminal titles and psuedo tabs for now.  
+# The main hack is dynamic terminal titles and psuedo tabs for now.
 # There are some other nice tricks, especially with zsh.
 
 hardstatus lastline "%-Lw(%n%f %t)%+Lw / %H"
@@ -40,7 +39,7 @@ shelltitle "vt"
 #
 # '%? [%h]%?' %h is the hardstatus of this window
 #              If %h has value,  then print
-#                 space, left bracket, hardstatus, right bracket 
+#                 space, left bracket, hardstatus, right bracket
 #              otherwise, print nothing.
 #
 # '%='         pad out as much space as possible
@@ -48,7 +47,7 @@ shelltitle "vt"
 
 # I'd like to get session name too, but 1) there is no var 2) I can't
 # figure out how to write a shell script that will determine the
-# running session by "backtick" command.  
+# running session by "backtick" command.
 # There may be a way to do this with backtick escapes.
 #
 # See the bottom of this file for my breakdown of a sensible original
@@ -104,7 +103,7 @@ bind ^] paste [.]
 
 ################################################################################
 #
-# Original recommended caption without all the color shit
+# Original recommended caption without all the color shit.
 
 #caption always "%3n %t%? @%u%?%? [%h]%?%=%c"
 #hardstatus alwaysignore
@@ -120,7 +119,7 @@ bind ^] paste [.]
 ##
 ## '%? [%h]%?' %h is the hardstatus of this window
 ##              If %h has value,  then print
-##                 space, left bracket, hardstatus, right bracket 
+##                 space, left bracket, hardstatus, right bracket
 ##              otherwise, print nothing.
 ##
 ## '='         pad out as much space as possible
