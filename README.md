@@ -72,3 +72,7 @@ Enhancements
 
 > echo "source ~/.dotfiles/.zshrc" >> ~/.zshrc
 
+* Solarized: http://ethanschoonover.com/solarized
+    * Solarized vim: https://github.com/altercation/vim-colors-solarized
+    * Solarized Terminal.app: https://github.com/altercation/solarized/tree/master/osx-terminal.app-colors-solarized
+    * Solarized oh-my-zsh: Many of the included oh-my-zsh themes are designed to work with solarized
