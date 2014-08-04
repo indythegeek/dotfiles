@@ -30,7 +30,7 @@ TODO
 
     ~/.vim/         ->  ~/.dotfiles/.vim/
     ~/.zshrc        ->  ~/.dotfiles/.zshrc
-    ~/.oh-my-zsh    ->  ~/.dotfiles/.oh-my-zsh
+    ~/.oh-my-zsh/    ->  ~/.dotfiles/.oh-my-zsh/
 
 Incorporate other sources
 -------------------------
