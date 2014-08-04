@@ -47,7 +47,7 @@ My Dotfiles                                       | Original Source             
 TODO Tasks
 ----------
 
-* checking .vimrc
+* checkin .vimrc
 * checkin "original" mac and linux bashrc
 * make .bashrc cross platform
 * make .bashrc links
@@ -57,7 +57,7 @@ TODO Tasks
 * make .zshrc cross platform
 * checkin .aliases to host-specific/.../.aliases.local
 * add .aliases.local to .bashrc and .zshrc
-* distall a cross platform .aliases
+* distill a cross platform .aliases
 * Add local changes to oh-my-zsh theme while preserving ability to take upstream updates
 * make oh-my-zsh custom theme host aware
 * add oh-my-zsh links
@@ -68,12 +68,11 @@ TODO Tasks
   * Figure out to apply vim status config in split windows
 
 
-Enchancements
+Enhancements
 -------------
 
 * Incorporate something from http://dotfiles.github.io/ to replace my hacky linking scripts.
 * Make the host-specific configs a generic system for incorporating any master + host-specific configs.  This will likely need to differ based on program (shells include things well, ssh does not)
-* Make an add-not-replace-config.sh for people that aren't me to add these configs to their existing configs, probably using:
 
 > echo "source ~/.dotfiles/.zshrc" >> ~/.zshrc
 
