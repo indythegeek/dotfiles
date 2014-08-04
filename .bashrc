@@ -1,17 +1,13 @@
 # ~/.bashrc: technically executed by bash(1) for non-login shells.
-# But I use it for all logins, by sourcing from ~/.bash_profile because that's how I roll
 
-# If zsh exists run it, and it makes the rest of this file moot.  If not, we fall back
-# The $SSH_TTY test allows rsync, scp and other non-interactive 
-# commands to work/work quickly. Yes, I know this the point of the 
-# .bashrc/.bash_profile seperation, but I've been using .bashrc for too many years to 
-# go back now.
+# I use .bashrc for all logins (and my or may not be conditionally spawning zsh)
+# Yes, I know there is a point for the .bashrc/.bash_profile seperation, 
+# but I've been using .bashrc for everything for too many years to go back now.
 
-##
-## Whoa. Not ready for zsh yet!
-## Also, this is the last remenant of "do something different when non-interactive 
-##  (eg, with rsync)"
-##
+## If zsh exists run it, and it makes the rest of this file moot.  If not, we fall back
+## The $SSH_TTY test allows rsync, scp and other non-interactive 
+## commands to work/work quickly by only running in bash and not spinning up zsh. 
+## This is the last remenant of "do something different when non-interactive  (eg, with rsync)"
 #
 #if [ "$SSH_TTY" ]; then
 #  if [ -f /usr/bin/zsh ]; then
@@ -21,6 +17,9 @@
 
 ## ALIASES
 # ~/.aliases, instead of adding them here directly.
+# There are aliases in this file, mostly related to coloration, the aliases in
+# this file are full on alternative names for programs and hacks smacking different
+# programs together
 
 if [ -f ~/.aliases ]; then
     . ~/.aliases
