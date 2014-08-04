@@ -20,8 +20,8 @@ bind ^a
 # Captions and hardstatus. Makes it looks like you have a tabed terminal 
 # and puts useful info into the title of your terminal
 
-# The main hack is dynamic terminal titles and psudo tabs for now.  
-# There are some other nice tricks, especialy with zsh.
+# The main hack is dynamic terminal titles and psuedo tabs for now.  
+# There are some other nice tricks, especially with zsh.
 
 hardstatus lastline "%-Lw(%n%f %t)%+Lw / %H"
 caption always "%{= yk} %-Lw%{= ck}%n%f %t%{-}%+Lw %=%{= mk} %?multi: you,%u@%?%H "
@@ -104,7 +104,7 @@ bind ^] paste [.]
 
 ################################################################################
 #
-# Orignal recommended caption without all the color shit
+# Original recommended caption without all the color shit
 
 #caption always "%3n %t%? @%u%?%? [%h]%?%=%c"
 #hardstatus alwaysignore
