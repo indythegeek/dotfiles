@@ -2,6 +2,7 @@
 
 # Colorized apache watching
 alias apachewatch='sudo grc tail -f /var/log/apache2/access.log'
+alias weddingwatch='sudo grc tail -f /var/log/apache2/sashaindy/access.log'
 
 # makes text red and surrounds it with character returns
 echored()
