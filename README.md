@@ -38,31 +38,25 @@ Merge these in:
 
 My Dotfiles                                       | Original Source                                          | License
 ------------------------------------------------- | -------------------------------------------------------- | -------
-.vim/                                             | https://github.com/elzr/vim-json                         | MIT
 .oh-my-zsh/                                       | https://github.com/robbyrussell/oh-my-zsh.git            | MIT
 .oh-my-zsh/custom/plugins/zsh-syntax-highlighting | https://github.com/zsh-users/zsh-syntax-highlighting.git | BSD Custom
 
 TODO Tasks
 ----------
 
-* checkin .vimrc
-* checkin "original" mac and linux bashrc
+* checkin .vim dir
 * make .bashrc cross platform
 * make .bashrc links
 * add zsh call to .bashrc
 * checkin .zshrc from oh-my-zsh template
 * checkin "current" .zshrc as update to template
 * make .zshrc cross platform
-* checkin .aliases to host-specific/.../.aliases.local
 * add .aliases.local to .bashrc and .zshrc
 * distill a cross platform .aliases
 * Add local changes to oh-my-zsh theme while preserving ability to take upstream updates
 * make oh-my-zsh custom theme host aware
 * add oh-my-zsh links
 * Rawhide's bell trick
-* .vimrc/.vim/
-  * wordwrap
-  * spelling (in Linux?  MacVim?  Cream?)
 
 Enhancements
 -------------
