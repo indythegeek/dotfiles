@@ -27,7 +27,7 @@ fi
 
 ## PATH
 # Home bin
-PATH=$PATH:$HOME/bin
+PATH="$PATH:$HOME/bin:/usr/local/sbin"
 
 
 ## HISTORY
