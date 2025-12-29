@@ -1,3 +1,7 @@
+NOW MOVED TO DOTBOT
+===================
+This is a historical repo, I now track everything using dotbot https://github.com/indythegeek/dotbot
+
 dotfiles
 ========
 
